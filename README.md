@@ -7,8 +7,6 @@ Jednoduchá aplikace pro procvičení znalostí o základu MVC, Session a Cookie
 - [Zadání](#-zadání)
 - [Nutné požadavky pro přijetí projektu](#-nutne-pozadavky-pro-prijeti-projektu)
 - [Využité jazyky](#️-vyuzite-jazyky)
-- []()
-- []()
 
 ## 📖 Zadání
 
