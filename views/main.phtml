@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+	<head>
+		<base href="/localhost" />
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="../public/css/style.css" type="text/css"/>
+	</head>
+
+	<body>	
+		<nav>
+			<ul>
+				<li><a href="pizza">Přidat Pizzu</a></li>
+				<li><a href="cart">Košík</a></li>
+				<li><a href="payment">Platba</a></li>
+				<li><a href="goofy">Odstranit cookies</a></li>
+			</ul>
+		</nav>
+		<br clear="both" />
+		
+		<article>
+			<?php $this->controller->renderView();?>
+		</article>
+	</body>
+</html>

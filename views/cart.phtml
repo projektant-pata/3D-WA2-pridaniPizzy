@@ -1,0 +1,13 @@
+<h1>Košík</h1>
+
+<?php if (!empty($pizza)): ?>
+        <ul>
+            <li><strong>Základ:</strong> <?= $pizza['base'] ?></li>
+            <?php foreach ($pizza['ingredients'] as $i => $ingredient): ?>
+                <li><strong><?= $i + 1 ?>. Ingredience:</strong> <?= $ingredient ?></li>
+            <?php endforeach; ?>
+
+        </ul>
+<?php else: ?>
+    <p>Váš košík je prázdný.</p>
+<?php endif; ?>

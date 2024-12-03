@@ -1,0 +1,35 @@
+<h1>Přidání Pizzy</h1>
+
+<form action="" method="post">
+    <select name="base" required>
+        <option value="Rajčatový základ">Rajčatový základ</option>
+        <option value="Smetanový základ">Smetanový základ</option>
+    </select>
+
+    <div class="row">
+        <label for="nazev">Název ingredience</label>
+        <select name="ingredients[]" required>
+            <option value="Šunka">Šunka</option>
+            <option value="Salám">Salám</option>
+            <option value="Sýr">Sýr</option>
+            <option value="Žampiony">Žampiony</option>
+            <option value="Cibule">Cibule</option>
+            <option value="Paprika">Paprika</option>
+            <option value="Ananas">Ananas</option>
+            <option value="Kukuřice">Kukuřice</option>
+
+        </select>
+    </div>
+    <div class="add">
+        <img src="/public/img/plus-84.png" alt="add">
+    </div>
+    <div class="remember">
+        <input type="checkbox" value="1" name="remember">
+        <label for="remember">Pamatovat si mě</label>
+    </div>
+    <div class="submit">
+        <input type="submit" value="submit" name="submit" id="submit">
+    </div>
+</form>
+
+<script src="/public/js/addIngredients.js"></script>
